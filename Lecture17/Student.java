@@ -13,6 +13,7 @@ public class Student {
 //		if(age<0) {
 //			System.out.println("age can not be -Ve");
 //		}
+		
 		try {
 		if(age <0)
 		 throw new Exception("age can not be -Ve");
